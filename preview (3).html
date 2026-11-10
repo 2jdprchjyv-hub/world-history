@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="ja">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>世界史試験対策</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f5f5f4;color:#171717;font:14px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}button,input{font:inherit}button{cursor:pointer;background:#fff;border:1px solid #d6d6d3;border-radius:9px;padding:10px 15px;color:inherit}button:hover{background:#eee}button:focus-visible,input:focus-visible{outline:3px solid #777;outline-offset:3px}button:disabled{opacity:.35;cursor:not-allowed}.on,.primary{background:#181818;color:#fff;border-color:#181818}.on:hover,.primary:hover{background:#383838}.app{max-width:1180px;margin:auto;display:grid;grid-template-columns:220px 1fr;min-height:100vh}aside{padding:30px 22px;border-right:1px solid #ddd;background:#fff}h1{font-size:19px;letter-spacing:.015em;white-space:nowrap;margin:0 0 32px}h2{font-size:25px;line-height:1.5;margin:0 0 10px}h3{font-size:14px;margin:24px 0 12px}.muted{color:#717171;font-size:12px}nav{display:grid;gap:8px}nav button{text-align:left;display:flex;justify-content:space-between}main{padding:36px;min-width:0}.panel{background:white;border:1px solid #dededb;border-radius:16px;padding:26px;margin:20px 0}.row{display:flex;align-items:center;justify-content:space-between;gap:12px}.wrap{display:flex;gap:7px;flex-wrap:wrap}.chips button{font-size:12px;padding:5px 10px}.chapters{display:grid;gap:9px}.chapterbox{border:1px solid #dededb;border-radius:11px;overflow:hidden}.chapter{display:flex;text-align:left;justify-content:space-between;align-items:center;gap:12px;padding:16px;border:0;border-radius:0;width:100%;background:#fff}.chapter:focus-visible{outline-offset:-4px}.chapter strong{display:block;font-size:17px}.chapterleft{flex:1}.chaptermeta{display:flex;align-items:center;gap:18px}.mastery{text-align:right;min-width:85px}.mastery b{font-size:20px;font-weight:600}.mastery small{font-size:11px;color:#777;margin-right:6px}.chaptermeter{height:3px;background:#e9e9e6;border-radius:3px;margin-top:7px}.chaptermeter i{display:block;height:100%;background:#222;border-radius:3px}.chevron{display:inline-block;font-size:23px;color:#777;transition:transform .32s ease}.expanded .chevron{transform:rotate(90deg)}.fold{display:grid;grid-template-rows:0fr;visibility:hidden;transition:grid-template-rows .34s ease,visibility .34s}.fold.open{grid-template-rows:1fr;visibility:visible}.foldinner{min-height:0;overflow:hidden}.foldcontent{padding:0 12px 14px}.foldcontent .row{padding:4px 0 10px}.detail{display:grid;gap:5px}.detail button{display:grid;grid-template-columns:55px 1fr 45px;align-items:center;text-align:left;gap:10px;padding:5px 10px;border-radius:6px;font-size:12px;min-height:33px}.detail span:first-child{white-space:nowrap}.detail small{text-align:right}.subtle{background:transparent;border:none;padding:5px;color:#666}.count{width:115px;border:1px solid #bbb;border-radius:8px;padding:9px}.count:invalid{border-color:#9c5c26}.score{padding:18px 0 24px}.score strong{font-size:42px;font-weight:600;line-height:1.2}.score small{color:#777;margin-left:7px}.rail{display:flex;flex-wrap:wrap;gap:5px;margin:18px 0 26px;max-height:250px;overflow:auto}.rail button{width:28px;height:28px;padding:0;font-size:11px;border-radius:5px}.rail .good{background:#e5efe8;color:#23633b}.rail .bad{background:#f9eee3;color:#9a5524}.rail .current{outline:2px solid #111;outline-offset:1px}.prompt{font-size:21px;line-height:1.8;white-space:pre-line;margin:20px 0}.options{display:grid;gap:10px}.option{text-align:left;display:flex;align-items:center;gap:15px;min-height:62px;line-height:1.7}.letter{min-width:29px;height:29px;display:grid;place-items:center;border:1px solid #bbb;border-radius:7px;font-size:12px}.answer{border-left:3px solid #333;padding-left:18px;margin:20px 0}.feedback{font-size:24px;font-weight:700}.goodtext{color:#25613d}.badtext{color:#a85d23}.bottom{margin-top:24px;display:flex;justify-content:space-between;gap:12px}.source{display:block;margin-top:35px;padding-top:20px;border-top:1px solid #ddd;color:#666;font-size:12px;text-decoration:none}.progress{height:3px;background:#e5e5e2;margin-bottom:28px}.progress i{display:block;height:3px;background:#222}.listitem{border-bottom:1px solid #eee;padding:17px 0}.listitem:last-child{border:0}details summary{cursor:pointer}.search{width:100%;padding:10px;border:1px solid #ccc;border-radius:8px}.empty{padding:35px 0;text-align:center;color:#777}.badge{font-size:11px;border:1px solid #ddd;border-radius:5px;padding:2px 6px}.countline{font-size:12px;color:#555;margin-top:12px}footer{margin:26px 0;color:#777;font-size:11px}@media(prefers-reduced-motion:reduce){.fold,.chevron{transition:none}}@media(max-width:760px){.app{display:block}aside{padding:17px;border-right:0;border-bottom:1px solid #ddd}h1{margin:0 0 13px;font-size:20px}nav{grid-template-columns:repeat(3,1fr);gap:5px}nav button{font-size:12px;padding:8px}main{padding:20px 15px}.panel{padding:19px;margin:15px 0}.score{padding:10px 0}.score strong{font-size:30px}.rail{margin:10px 0;max-height:95px}.prompt{font-size:18px}.detail button{grid-template-columns:49px 1fr 35px;gap:7px}.chapter{padding:13px}.mastery b{font-size:18px}.mastery{min-width:77px}.chaptermeta{gap:10px}h2{font-size:22px}}
+</style>
+<div id="app"></div>
+<script>
+const raw=`カトー・カンブレジ条約|イタリア戦争を終結させた条約|条約|戦争
+勢力均衡|一国の突出を防ぎ、国家間の均衡を保とうとする外交上の考え|思想|政治
+信仰義認説|人は信仰だけによって救われるとする教え|思想|宗教
+ルター|贖宥状販売を批判し、『キリスト者の自由』を著した人物|人物|宗教
+予定説|人が救われるかは神があらかじめ定めているとする教え|思想|宗教
+カルヴァン|ジュネーヴで改革し、『キリスト教綱要』を著した人物|人物|宗教
+国王至上法|ヘンリ8世が国王をイギリス国教会の最高の長とした法律|法令|イギリス 宗教
+フランシスコ・ザビエル|日本にキリスト教を伝えたイエズス会士|人物|日本 宗教
+マテオ・リッチ|中国で布教したイエズス会士|人物|中国 宗教
+レパントの海戦|スペインなどの連合艦隊がオスマン艦隊を破った海戦|戦争|スペイン
+ヘンリ8世|離婚問題を契機に教皇と絶縁し、修道院の財産を没収した国王|人物|イギリス 宗教
+エリザベス1世|信仰統一法でイギリス国教会を確立した女王|人物|イギリス 宗教
+
+同君連合|別々の国家が同じ君主をいただく結合形態|制度|イギリス
+権利請願|チャールズ1世に対し、議会の同意なき課税などの禁止を求めた文書|法令|イギリス
+クロムウェル|鉄騎隊を率い、共和政樹立後に護国卿となった人物|人物|イギリス 革命
+権利章典|ウィリアム3世とメアリ2世が承認した権利宣言を法律としたもの|法令|イギリス 革命
+ウォルポール|最初の首相となり、議会に責任を負う内閣を率いた人物|人物|イギリス
+リシュリュー|ルイ13世の宰相として貴族・ユグノーを抑え、三十年戦争に介入した人物|人物|フランス
+マザラン|ルイ14世幼少期に中央集権を進め、フロンドの乱を鎮圧した人物|人物|フランス
+コルベール|ルイ14世の財務長官として重商主義政策を進めた人物|人物|フランス 経済
+ウェストファリア条約|三十年戦争を終結させ、カルヴァン派も公認した条約|条約|戦争
+和蘭風説書|オランダ東インド会社が日本へ海外情報を伝えた報告書|文献|日本
+蘭学|オランダ語を通じて西欧の学術を学ぶ学問|思想|日本 科学
+ユトレヒト条約|スペイン継承戦争の講和で、イギリスがジブラルタルなどを得た条約|条約|戦争
+
+重商主義|貿易による富の増大を重視し、国家が産業を保護・育成する考え|思想|経済
+クライヴ|プラッシーの戦いでベンガル太守を破ったイギリス側の人物|人物|イギリス インド 戦争
+デュプレクス|南インドでフランスの勢力拡大を進めた人物|人物|フランス インド
+イングランド銀行|政府への融資と公債制度を支え、財政革命に関わった銀行|組織|イギリス 経済
+アン女王戦争|スペイン継承戦争と並行して北米で行われた英仏の戦争|戦争|アメリカ
+ジョージ王戦争|オーストリア継承戦争と並行して北米で行われた英仏の戦争|戦争|アメリカ
+フレンチ・インディアン戦争|七年戦争期、北米で英仏が争った戦争|戦争|アメリカ
+カーナティック戦争|英仏が南インドで争い、イギリスが優位に立った一連の戦争|戦争|インド
+プラッシーの戦い|クライヴが、フランスと結んだベンガル太守を破った戦い|戦争|インド
+貿易差額主義|輸出を促進し、輸入を制限して貿易上の利益を得ようとする考え|思想|経済
+ニューヨーク|イギリスが獲得したニューアムステルダムの改称後の名|地名|アメリカ
+ケベック|フランスがセントローレンス川流域に設けた北米植民拠点|地名|アメリカ フランス
+
+フリードリヒ2世|自らを国家第一の僕とし、シレジア確保に努めたプロイセン王|人物|ドイツ
+ピョートル1世|西欧化を進め、北方戦争を経てバルト海へ進出したロシア皇帝|人物|ロシア
+エカチェリーナ2世|啓蒙思想に関心を示しつつ農奴制を強化し、ポーランド分割に加わった女帝|人物|ロシア
+ユンカー|プロイセンで軍・官僚を担った領主貴族の階層|階層|ドイツ
+ヨーゼフ2世|ハプスブルク領で宗教寛容や農奴制の改革を進めた君主|人物|政治
+ネルチンスク条約|ロシアと清がアムール川方面の国境を定めた条約|条約|ロシア 中国
+マリア・テレジア|オーストリア継承戦争でシレジアを失い、プロイセンに対抗した君主|人物|戦争
+イヴァン4世|正式にツァーリを称し、ロシアの専制支配を強めた君主|人物|ロシア
+ミハイル・ロマノフ|ロマノフ朝の始祖となった人物|人物|ロシア
+北方戦争|ピョートル1世のロシアがスウェーデンと争い、バルト海進出を果たした戦争|戦争|ロシア
+七年戦争|外交革命後、プロイセンがイギリスの援助を受けシレジアを確保した戦争|戦争|ドイツ
+ペテルブルク|ピョートル1世がバルト海方面に建設した新都|地名|ロシア
+
+ニュートン|万有引力の法則を示し、古典力学を大成した人物|人物|科学
+ボイル|気体の圧力と体積の関係を研究した人物|人物|科学
+ラヴォアジエ|燃焼が酸素との結合であることを解明した人物|人物|科学
+ハーヴェー|血液循環説を唱えた人物|人物|科学
+ジェンナー|種痘法を開発した人物|人物|科学
+フランシス・ベーコン|観察・経験から一般的命題を導く帰納法を確立した人物|人物|思想
+デカルト|演繹法を確立し、『方法叙説』を著した人物|人物|思想
+モンテスキュー|『法の精神』で三権分立を説いた人物|人物|思想
+ルソー|『社会契約論』で人民主権を説いた人物|人物|思想
+ロック|『市民政府二論』で自然権の保護と抵抗権を説いた人物|人物|思想
+ホッブズ|自然状態を万人の万人に対する闘争と捉え、『リヴァイアサン』を著した人物|人物|思想
+スウィフト|『ガリヴァー旅行記』で当時のイギリスを風刺した作家|人物|文化
+デフォー|『ロビンソン・クルーソー』を著した作家|人物|文化
+モリエール|フランス古典主義演劇の喜劇で活躍した人物|人物|文化
+レンブラント|『夜警』などで市民生活と内面性を描いたオランダの画家|人物|文化
+リヴァイアサン|ホッブズが社会契約による国家形成と国家主権の絶対性を主張した著作|文献|思想
+市民政府二論|ロックが自然権の保護と人民の抵抗権を説いた著作|文献|思想
+社会契約論|ルソーが自由平等・人民主権を説いた著作|文献|思想
+法の精神|モンテスキューが三権分立を説いた著作|文献|思想
+
+ワット|蒸気機関を改良し、工業の新しい動力の普及に貢献した人物|人物|科学 イギリス
+カートライト|力織機を発明した人物|人物|科学 イギリス
+ハーグリーヴズ|ジェニー紡績機を発明した人物|人物|科学 イギリス
+ホイットニー|綿繰機を発明した人物|人物|科学 アメリカ
+スティーヴンソン|蒸気機関車を製作・実用化した人物|人物|科学 イギリス
+フルトン|蒸気船を試運転し、海上輸送の発展に関わった人物|人物|科学 アメリカ
+ラダイト運動|機械化への抵抗として展開された機械打ち壊し運動|運動|経済
+マニュファクチュア|作業場に労働者を集め、分業で生産する工場制手工業|制度|経済
+ジョン・ケイ|飛び杼を発明した人物|人物|科学 イギリス
+アークライト|水力紡績機を発明した人物|人物|科学 イギリス
+クロンプトン|ミュール紡績機を発明した人物|人物|科学 イギリス
+ダービー|木炭に代えてコークスを用いる製鉄法を成功させた人物|人物|科学 イギリス
+
+トマス・ペイン|『コモン・センス』で北米植民地の独立への意欲を高めた人物|人物|アメリカ 革命
+ジェファソン|独立宣言の起草に関わり、大統領としてルイジアナを購入した人物|人物|アメリカ
+ワシントン|独立戦争の総司令官となり、のち初代大統領になった人物|人物|アメリカ 戦争
+トゥサン・ルヴェルチュール|サン・ドマングで黒人奴隷の反乱を指導した人物|人物|革命
+シモン・ボリバル|南米北部で活動し、大コロンビア共和国の独立を宣言した人物|人物|革命
+サン・マルティン|アルゼンチン独立に貢献し、チリ・ペルーへ進軍した人物|人物|革命
+モンロー宣言|欧州列強のアメリカ大陸への武力干渉を拒否した宣言|法令|アメリカ
+マニフェスト・デスティニー|明白な天命として米国の西部拡張を正当化した考え|思想|アメリカ
+ジャクソン|スポイルズ・システムを導入し、先住民の強制移住を進めた大統領|人物|アメリカ
+フランクリン|アメリカ独立のため、外交で外国の支援を求めた人物|人物|アメリカ
+イダルゴ|メキシコで先住民・メスティソの蜂起を指導した人物|人物|革命
+印紙法|七年戦争後の北米植民地で「代表なくして課税なし」と批判された課税法|法令|アメリカ
+
+アンシャン・レジーム|第一・第二身分が特権を持つ、革命前のフランスの旧体制|制度|フランス 革命
+シェイエス|『第三身分とは何か』で第三身分こそ国民を代表すると主張した人物|人物|フランス 革命
+球戯場の誓い|国民議会が憲法制定まで解散しないと誓った出来事|事件|フランス 革命
+ヴァレンヌ逃亡事件|王一家の逃亡が失敗し、ルイ16世の信用を失墜させた事件|事件|フランス 革命
+ロベスピエール|公安委員会を指導し、恐怖政治を進めた人物|人物|フランス 革命
+テルミドールの反動|ロベスピエールが失脚し、恐怖政治が終わった政変|事件|フランス 革命
+オランプ・ド・グージュ|『女権宣言』で男女同権を訴えた人物|人物|フランス 思想
+ネルソン|トラファルガー沖の海戦でイギリス海軍を率いた人物|人物|イギリス 戦争
+大陸封鎖令|ナポレオンが大陸諸国の対英通商を禁止した命令|法令|フランス 経済
+メッテルニヒ|ウィーン会議の議長を務めたオーストリア外相|人物|政治
+アウステルリッツの戦い|ナポレオンがロシア・オーストリア連合軍を破った戦い|戦争|フランス
+ワーテルローの戦い|エルバ島脱出後に再起したナポレオンが最終的に敗れた戦い|戦争|フランス
+
+穀物法|穀物輸入を制限してイギリスの地主を保護した法律|法令|イギリス 経済
+チャーティスト運動|人民憲章を掲げ、男性普通選挙などを求めた労働者の運動|運動|イギリス
+功利主義|最大多数の最大幸福を原則とする思想|思想|イギリス
+マッツィーニ|青年イタリアを組織し、イタリア統一を目指した人物|人物|政治
+デカブリストの乱|ニコライ1世即位時、ロシアの自由主義的貴族士官が起こした反乱|事件|ロシア 革命
+ルイ・フィリップ|七月革命後、フランスの七月王政で国王となった人物|人物|フランス 革命
+マルクス|『資本論』で資本主義を分析し、エンゲルスと『共産党宣言』を発表した人物|人物|思想
+ドラクロワ|『民衆を導く自由の女神』や『キオス島の虐殺』を描いた画家|人物|文化 フランス
+ロバート・オーウェン|ニューラナークで労働条件を改善し、共同体的理想社会を構想した人物|人物|思想
+小ドイツ主義|オーストリアを除き、プロイセンを中心にドイツ統一を目指す考え|思想|ドイツ
+大ドイツ主義|オーストリアを含めてドイツ統一を目指す考え|思想|ドイツ
+ルイ・ブラン|国家の援助によって生産労働を組織しようとした思想家|人物|思想 フランス
+
+カヴール|サルデーニャ王国の首相として、外交を通じイタリア統一を進めた人物|人物|政治
+ガリバルディ|義勇軍を率いてシチリア・ナポリを征服した人物|人物|戦争
+ビスマルク|鉄血政策を掲げ、プロイセン中心のドイツ統一を推進した人物|人物|ドイツ
+アレクサンドル2世|クリミア戦争後、ロシアで農奴解放令を発布した皇帝|人物|ロシア
+ミール|農奴解放後もロシアの農村支配に組み込まれた共同体|制度|ロシア
+アウスグライヒ|オーストリアとマジャール人の妥協による二重帝国成立の取り決め|制度|政治
+ドレフュス事件|フランスのユダヤ系将校が軍事機密漏洩の冤罪に問われた事件|事件|フランス
+文化闘争|ビスマルクがカトリック教会・中央党の勢力を抑えようとした政策|運動|ドイツ 宗教
+ディズレーリ|保守党の指導者としてスエズ運河株買収など帝国政策を進めた人物|人物|イギリス
+ナイティンゲール|クリミア戦争で野戦病院を改革し、看護職の改革にも貢献した人物|人物|戦争
+ストルイピン|ミールの解体と自作農育成を進めたロシアの首相|人物|ロシア
+クリミア戦争|ロシアの対オスマン侵攻に対し英仏がオスマン側で参戦し、ロシアが敗れた戦争|戦争|ロシア
+
+リンカン|南北戦争中に奴隷解放宣言を発した大統領|人物|アメリカ 戦争
+自営農地法|公有地に一定期間定住する開拓者へ土地を無償で与えた法律|法令|アメリカ
+シェアクロッパー|奴隷解放後の南部で、収穫の一部を地主に納めた分益小作人|階層|アメリカ 経済
+ジム・クロウ法|学校・交通・飲食施設などで人種隔離を定めた法律|法令|アメリカ
+サパタ|メキシコ革命で南部の農民を率い、土地改革を求めた人物|人物|革命
+ビリャ|メキシコ革命で北部の農民を率いた人物|人物|革命
+モノカルチャー|少数の輸出品に依存し、国際価格の変動に弱い経済のあり方|制度|経済
+フアレス|先住民出身で、土地改革を進めたメキシコ大統領|人物|政治
+ディアス|外国資本を導入して経済成長を進めたメキシコの独裁的な大統領|人物|政治
+マデロ|蜂起によってディアス独裁を倒した人物|人物|革命
+マクシミリアン|ナポレオン3世によってメキシコ皇帝に据えられた人物|人物|フランス
+南北戦争|奴隷制・貿易政策などをめぐる対立から、米国の南部と北部が戦った内戦|戦争|アメリカ
+
+リスト|後進国の産業育成には国家の保護が必要と主張したドイツの経済思想家|人物|経済 ドイツ
+マルサス|人口と食糧の増加の不均衡を貧困の原因と考えた経済思想家|人物|経済
+パックス・ブリタニカ|イギリスを中心とする国際秩序を「イギリスのもとでの平和」と表した語|制度|イギリス 経済
+シティ|国際金融の中心となったロンドンの金融街|地名|イギリス 経済
+モース|電信を実用化した人物|人物|科学
+国際赤十字社|戦時の負傷者救護のために成立した国際組織|組織|戦争
+金本位制|金を基準とし、英国のポンドが基軸通貨となる背景にあった通貨制度|制度|経済
+クーリー|鉱山・鉄道・農園などへ送られた中国人・インド人などの契約労働者|階層|中国 インド 経済
+万国電気通信連合|国際的な電気通信の共通の仕組みを整えるため成立した組織|組織|科学
+万国郵便連合|国際的な郵便の共通の仕組みを整えるため成立した組織|組織|政治
+第1インターナショナル|国際労働者協会とも呼ばれた労働者の国際連帯組織|組織|思想
+第2インターナショナル|国際社会主義者大会とも呼ばれた労働者の国際連帯組織|組織|思想
+
+タンジマート|ギュルハネ勅令を出発点に、オスマン帝国が軍事・行政・司法などを西欧化した改革|運動|政治
+マフムト2世|イェニチェリを廃止し、アーヤーンを抑えて中央集権化したスルタン|人物|政治
+ムハンマド・アリー|エジプト総督となり、徴兵制・近代教育・専売制を整えた人物|人物|政治
+ワッハーブ派|聖者崇拝などを批判し、預言者時代への復帰を説いた宗教改革の一派|思想|宗教
+トルコマンチャーイ条約|対露戦争に敗れたカージャール朝が、領土割譲と治外法権などを認めた条約|条約|ロシア
+アーヤーン|オスマン帝国で勢力をもち、中央集権化のために抑えられた地方名士|階層|政治
+カージャール朝|テヘランを都としてイランに成立したトルコ系の王朝|王朝|政治
+ドゥッラーニー朝|アフガン系勢力が建て、アフガニスタンを自立させた王朝|王朝|政治
+ナーディル・シャー|サファヴィー朝崩壊後に新王朝を建て、デリーへ侵入した軍人|人物|インド
+イブン・アブドゥルワッハーブ|アラビアで聖者崇拝を批判し、サウード家と結ぶ宗教改革を始めた人物|人物|宗教
+エジプト＝トルコ戦争|ムハンマド・アリーがシリアを占領し、列強の介入を招いた戦争|戦争|政治
+イギリス＝オスマン通商条約|最恵国待遇・専売制度廃止などを定め、英国に有利な通商を認めた条約|条約|イギリス
+
+ザミンダーリー制|ベンガルで、領主を土地所有者・納税者とした制度|制度|インド 経済
+ライヤットワーリー制|マドラスなどで、耕作農民を土地所有者とし政府が直接課税した制度|制度|インド 経済
+ラーム＝モーハン＝ローイ|サティー廃止を訴え、インドの社会・宗教改革の先駆となった人物|人物|インド 宗教
+シパーヒー|東インド会社軍のインド人兵士の呼称|階層|インド
+ラッフルズ|英国のジャワ支配を担い、シンガポールを開いた人物|人物|イギリス
+阮朝|阮福暎がベトナムを統一し、フエを都として建てた王朝|王朝|政治
+英蘭協定|マレー半島を英国側、マラッカ海峡の西・南側をオランダ側の勢力圏とした協定|条約|イギリス
+マイソール戦争|イギリス東インド会社が南インドへの進出を進めた戦争|戦争|インド
+マラーター戦争|イギリス東インド会社がインド中部への進出を進めた戦争|戦争|インド
+グルカ戦争|イギリスがネパールを従えた戦争|戦争|インド
+シク戦争|イギリスがパンジャーブ支配を確立した戦争|戦争|インド
+ラタナコーシン朝|バンコクを都としてタイに成立した王朝|王朝|政治
+
+林則徐|広州でアヘンを没収し、貿易を停止した清の官僚|人物|中国
+南京条約|最初のアヘン戦争後、公行廃止・五港開港・香港島割譲を定めた条約|条約|中国 戦争
+望厦条約|南京条約後、清が米国と結び、同様の権益を認めた条約|条約|中国 アメリカ
+黄埔条約|南京条約後、清がフランスと結び、同様の権益を認めた条約|条約|中国 フランス
+総理各国事務衙門|清が英・仏・米・露などとの外交のために設けた機関|組織|中国
+魏源|世界の地理を紹介する『海国図志』を著した人物|人物|中国 文化
+関税自主権の喪失|清が関税率を一方的に変更できなくなった状態|制度|中国 経済
+天津条約|アロー戦争中に締結され、批准使節が阻止されたため戦闘再開に至った条約|条約|中国 戦争
+北京条約|英仏軍の北京占領後に結ばれ、九竜半島南部の英国への割譲などを認めた条約|条約|中国 戦争
+アロー戦争|船員逮捕事件を口実に英国が、宣教師殺害を理由にフランスが参戦した戦争|戦争|中国
+白蓮教徒の乱|四川・湖北などの山地で、終末と救済を説く信仰を背景に起こった反乱|事件|中国
+経世済民|社会・経済の改善を論じる、清の士大夫の間で盛んになった学問|思想|中国`;
+const names=['主権国家群の形成と宗教改革','オランダの繁栄と英仏の国家形成','商業覇権と植民地建設','啓蒙専制国家の発展','近世ヨーロッパの社会と文化','産業革命と工業化','アメリカ合衆国とラテンアメリカ諸国の独立','フランス革命とウィーン体制','自由主義の台頭と新しい革命の波','19世紀後半のヨーロッパ諸国','南北アメリカの発展','産業資本主義の発達と世界の一体化','西アジアの変容と改革','南アジア・東南アジアの植民地化','清の動揺と二つのアヘン戦争'];
+const pages=['203–207','209–213','214–217','218–220','221–224','233–234','235–238','239–243','244–248','249–255','256–258','260–262','263–265','266–269','270–271'];
+const facts=raw.trim().split('\n\n').flatMap((g,c)=>g.split('\n').map(line=>{
+ const [term,desc,kind,t]=line.split('|');
+ return{id:'term:'+term,c,term,desc,kind,tags:[kind,...t.split(' ')]};
+}));
+const orders=[
+{id:'s1',c:1,term:'イギリス革命の順序',seq:['ピューリタン革命','王政復古','名誉革命'],tags:['革命','イギリス']},
+{id:'s2',c:7,term:'フランス革命の順序',seq:['バスティーユ要塞襲撃','ヴァレンヌ逃亡事件','ルイ16世処刑','テルミドールの反動'],tags:['革命','フランス']},
+{id:'s3',c:9,term:'ドイツ統一の戦争の順序',seq:['デンマーク戦争','普墺戦争','普仏戦争'],tags:['戦争','ドイツ']},
+{id:'s4',c:14,term:'アヘン戦争と条約の順序',seq:['アヘン戦争','南京条約','アロー戦争','北京条約'],tags:['戦争','条約','中国']},
+{id:'s5',c:8,term:'フランスの政体変化の順序',seq:['七月革命','二月革命','第二帝政成立'],tags:['革命','フランス']}
+];
+const bank=[...facts,...orders],byId=Object.fromEntries(bank.map(f=>[f.id,f]));
+const groups={13:[0,1,2,3,4],14:[5,6,7,8,9,10],15:[11,12,13,14]};
+const fields=['人物','思想','科学','戦争','革命','条約','宗教','経済','文化','政治','フランス','イギリス','アメリカ','ロシア','日本','ドイツ','中国','インド'];
+const key='exam-prep-source2-v3';
+let stored={},storageOK=true;
+try{stored=JSON.parse(localStorage.getItem(key)||'{}')}catch(e){storageOK=false}
+let history=stored.history||{};
+const legacyTerms=('カトー・カンブレジ条約,勢力均衡,信仰義認説,ルター,予定説,カルヴァン,国王至上法,フランシスコ・ザビエル,マテオ・リッチ,レパントの海戦,同君連合,権利請願,クロムウェル,権利章典,ウォルポール,リシュリュー,マザラン,コルベール,ウェストファリア条約,和蘭風説書,蘭学,ユトレヒト条約,重商主義,クライヴ,デュプレクス,イングランド銀行,フリードリヒ2世,ピョートル1世,エカチェリーナ2世,ユンカー,ヨーゼフ2世,ネルチンスク条約,ニュートン,ボイル,ラヴォアジエ,ハーヴェー,ジェンナー,フランシス・ベーコン,デカルト,モンテスキュー,ルソー,ロック,ホッブズ,スウィフト,デフォー,モリエール,レンブラント,ワット,カートライト,ハーグリーヴズ,ホイットニー,スティーヴンソン,フルトン,ラダイト運動,マニュファクチュア,トマス・ペイン,ジェファソン,ワシントン,トゥサン・ルヴェルチュール,シモン・ボリバル,サン・マルティン,モンロー宣言,マニフェスト・デスティニー,アンシャン・レジーム,シェイエス,球戯場の誓い,ヴァレンヌ逃亡事件,ロベスピエール,テルミドールの反動,オランプ・ド・グージュ,ネルソン,大陸封鎖令,穀物法,チャーティスト運動,功利主義,マッツィーニ,デカブリストの乱,ルイ・フィリップ,マルクス,ドラクロワ,ロバート・オーウェン,カヴール,ガリバルディ,ビスマルク,アレクサンドル2世,ミール,アウスグライヒ,ドレフュス事件,文化闘争,ディズレーリ,リンカン,自営農地法,シェアクロッパー,ジム・クロウ法,サパタ,ビリャ,モノカルチャー,リスト,マルサス,パックス・ブリタニカ,シティ,モース,国際赤十字社,タンジマート,マフムト2世,ムハンマド・アリー,ワッハーブ派,トルコマンチャーイ条約,ザミンダーリー制,ライヤットワーリー制,ラーム＝モーハン＝ローイ,シパーヒー,ラッフルズ,阮朝,英蘭協定,林則徐,南京条約,望厦条約,黄埔条約,総理各国事務衙門,魏源,関税自主権の喪失').split(',');
+if(!stored.migrated){
+ try{
+  const old=JSON.parse(localStorage.getItem('exam-prep-source2-v2')||'{}');
+  for(const [id,h] of Object.entries(old.history||{})){
+   const f=byId[id.startsWith('f')?'term:'+legacyTerms[Number(id.slice(1))]:id];
+   if(f&&!history[f.id])history[f.id]={seen:h.seen||1,correct:h.correct||0,status:old.review?.[id]?'todo':h.correct>0?'done':'todo',updated:h.updated||0};
+  }
+ }catch(e){}
+ stored.migrated=true;
+}
+function save(){try{localStorage.setItem(key,JSON.stringify({history,migrated:true}))}catch(e){storageOK=false}}
+let view='home',branch=null,selected=new Set(names.map((_,i)=>i)),tags=new Set(),amount='20',custom=false,session=null,search='';
+const shuffle=a=>{a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const ids=status=>bank.filter(f=>history[f.id]?.status===status);
+const pool=()=>bank.filter(f=>selected.has(f.c)&&(!tags.size||f.tags.some(t=>tags.has(t))));
+const valid=()=>/^\d+$/.test(amount)&&Number(amount)>=1&&Number(amount)<=1000;
+function affinity(a,b){return(a.c===b.c?5:0)+a.tags.filter(t=>b.tags.includes(t)).length}
+function makeQuestion(f,scope,force){
+ if(f.seq){
+  const correct=f.seq.join(' → '),opts=new Set([correct]);
+  while(opts.size<4)opts.add(shuffle(f.seq).join(' → '));
+  return{base:f.id,c:f.c,kind:'順序',n:1,prompt:'古いものから新しいものへの順序が正しいものを1つ選択。',options:shuffle([...opts].map(text=>({text,ok:text===correct}))),explain:'順序：'+correct+'。',variant:'order'};
+ }
+ const near=shuffle(facts.filter(x=>x.kind===f.kind&&x.id!==f.id)).sort((a,b)=>affinity(b,f)-affinity(a,f));
+ const peers=shuffle(scope.filter(x=>!x.seq&&x.kind===f.kind&&x.id!==f.id));
+ const mastered=history[f.id]?.status==='done';
+ let variant=force||(mastered?(Math.random()<.65?'pairs':'reverse'):(Math.random()<.28&&peers.length?'multi':'single'));
+ if(variant==='multi'&&!peers.length)variant='single';
+ if(variant==='pairs'&&!peers.length)variant='reverse';
+ let options,prompt,n=1,explain=f.term+'：'+f.desc+'。';
+ if(variant==='multi'){
+  const g=peers[0],wrong=near.filter(x=>x.id!==g.id).slice(0,2);
+  n=2;prompt='次の説明に当てはまる'+f.kind+'を2つ選択。\n① '+f.desc+'\n② '+g.desc;
+  options=[f,g,...wrong].map(x=>({text:x.term,ok:x.id===f.id||x.id===g.id}));
+  explain='① '+f.term+'\n② '+g.term+'\n\n'+f.term+'：'+f.desc+'。\n'+g.term+'：'+g.desc+'。';
+ }else if(variant==='pairs'){
+  const g=peers[0],[a,b]=near.filter(x=>x.id!==g.id).slice(0,2);
+  n=2;prompt=f.kind+'と説明の組み合わせが正しいものを2つ選択。';
+  options=[{text:f.term+' — '+f.desc,ok:true},{text:g.term+' — '+g.desc,ok:true},{text:a.term+' — '+b.desc,ok:false},{text:b.term+' — '+a.desc,ok:false}];
+  explain=[f,g,a,b].map(x=>x.term+'：'+x.desc+'。').join('\n');
+ }else if(variant==='reverse'){
+  prompt='「'+f.term+'」について、正しい説明を1つ選択。';
+  options=[f,...near.slice(0,3)].map(x=>({text:x.desc,ok:x.id===f.id}));
+ }else{
+  prompt=f.desc+'は？';
+  options=[f,...near.slice(0,3)].map(x=>({text:x.term,ok:x.id===f.id}));
+ }
+ return{base:f.id,c:f.c,kind:f.kind,n,prompt,options:shuffle(options),explain,variant};
+}
+function start(mode='normal'){
+ const source=mode==='review'?ids('todo'):pool();
+ if(!valid()||!source.length)return;
+ const requested=Math.min(Number(amount),source.length);
+ const ordered=shuffle(source).sort((a,b)=>(history[a.id]?.seen||0)-(history[b.id]?.seen||0));
+ const queue=ordered.slice(0,requested).map(f=>makeQuestion(f,source));
+ session={queue,index:0,selected:new Set(),results:[],mode};
+ view='quiz';render();
+}
+function grade(unknown=false){
+ const s=session,q=s.queue[s.index],previous=s.results[s.index];
+ if(previous&&!unknown||previous?.unknown)return;
+ const ok=!unknown&&q.options.every((o,i)=>o.ok===s.selected.has(i));
+ const h=history[q.base]||{seen:0,correct:0};
+ if(!previous)h.seen++;
+ if(previous?.ok)h.correct=Math.max(0,(h.correct||0)-1);
+ if(ok)h.correct=(h.correct||0)+1;
+ h.status=ok?'done':'todo';h.updated=Date.now();
+ history[q.base]=h;s.results[s.index]={ok,unknown};
+ save();render();
+}
+function choose(i){
+ if(session.results[session.index])return;
+ const s=session;
+ s.selected.has(i)?s.selected.delete(i):s.selected.add(i);
+ if(s.selected.size===s.queue[s.index].n)grade();else render();
+}
+function next(){
+ if(!session.results[session.index])return;
+ if(session.index+1===session.queue.length)view='finish';
+ else{session.index++;session.selected=new Set()}
+ render();
+}
+function sourceLink(){
+ return '<a class="source" href="https://chatgpt.com/library?file_id=libfile_a8e1bd673c6c8191885f5fec5f0c2c0b&account_id=personal" target="_blank" rel="noopener">元のソースを見る ↗</a>';
+}
+function countUI(){
+ return '<h3>問題数</h3><div class="wrap">'+[10,20,30].map(n=>'<button data-count="'+n+'" class="'+(!custom&&amount==n?'on':'')+'">'+n+'問</button>').join('')+
+ '<button data-custom class="'+(custom?'on':'')+'">手動入力</button>'+
+ (custom?'<input id="amount" aria-label="問題数" class="count" type="number" min="1" max="1000" step="1" inputmode="numeric" value="'+esc(amount)+'">':'')+
+ '</div><div id="countnote" class="countline"></div>';
+}
+function chapterMastery(g){
+ const all=bank.filter(f=>groups[g].includes(f.c));
+ const done=all.filter(f=>history[f.id]?.status==='done').length;
+ return{done,total:all.length,percent:Math.round(done*100/all.length)};
+}
+function chapterHTML(g,cs){
+ const m=chapterMastery(g),open=branch===Number(g);
+ return '<div class="chapterbox"><button class="chapter '+(open?'expanded':'')+'" data-branch="'+g+'" aria-expanded="'+open+'" aria-controls="fold-'+g+'">'+
+ '<div class="chapterleft"><strong>第'+g+'章</strong><span class="muted">第'+(cs[0]+1)+'〜'+(cs.at(-1)+1)+'部</span></div>'+
+ '<div class="chaptermeta"><div class="mastery" title="完了 '+m.done+' / '+m.total+'問"><div><small>理解度</small><b>'+m.percent+'%</b></div><div class="chaptermeter"><i style="width:'+m.percent+'%"></i></div></div><span class="chevron" aria-hidden="true">›</span></div></button>'+
+ '<div id="fold-'+g+'" class="fold '+(open?'open':'')+'" '+(open?'':'inert')+'><div class="foldinner"><div class="foldcontent">'+
+ '<div class="row"><span></span><button class="subtle" data-group="'+g+'">この章を全選択／解除</button></div>'+
+ '<div class="detail">'+cs.map(c=>'<button data-section="'+c+'" aria-pressed="'+selected.has(c)+'" class="'+(selected.has(c)?'on':'')+'"><span>第'+(c+1)+'部</span><span>'+names[c]+'</span><small>'+bank.filter(f=>f.c===c).length+'問</small></button>').join('')+
+ '</div></div></div></div></div>';
+}
+function toggleChapter(g){
+ branch=branch===g?null:g;
+ for(const button of document.querySelectorAll('[data-branch]')){
+  const open=Number(button.dataset.branch)===branch;
+  button.setAttribute('aria-expanded',String(open));
+  button.classList.toggle('expanded',open);
+  const panel=document.getElementById('fold-'+button.dataset.branch);
+  panel.classList.toggle('open',open);panel.inert=!open;
+ }
+}
+function home(){
+ return '<section class="panel" style="margin-top:0">'+
+ '<div class="row" style="margin-bottom:18px"><h3 style="margin:0">教科書の章</h3><button class="subtle" data-all>全範囲を選択</button></div>'+
+ '<div class="chapters">'+Object.entries(groups).map(([g,cs])=>chapterHTML(g,cs)).join('')+'</div>'+
+ '<div class="countline">'+selected.size+'部を選択中 <button class="subtle" data-clear>選択解除</button></div>'+
+ '<p class="muted">理解度＝その章の完了問題数 ÷ 全問題数</p>'+
+ '<h3>分野・地域で絞る</h3><div class="wrap chips"><button data-tag="" class="'+(!tags.size?'on':'')+'">すべて</button>'+
+ fields.map(t=>'<button data-tag="'+t+'" class="'+(tags.has(t)?'on':'')+'">'+t+'</button>').join('')+'</div>'+
+ '<p class="muted">章の範囲内で、選んだ分野・地域のいずれかを含む問題。</p>'+
+ countUI()+
+ '<div class="bottom"><span class="muted">対象 '+pool().length+'問<br>未出題を優先・重複なし</span><button class="primary" id="start" data-start>出題を始める →</button></div></section>';
+}
+function quiz(){
+ const s=session,q=s.queue[s.index],r=s.results[s.index];
+ return '<div class="progress"><i style="width:'+100*s.index/s.queue.length+'%"></i></div>'+
+ '<div class="row"><span class="muted">QUESTION '+(s.index+1)+' / '+s.queue.length+'</span><span class="badge">'+(q.n===2?'2つ選択':'1つ選択')+'</span></div>'+
+ '<p class="muted">第'+(q.c+1)+'部 · '+names[q.c]+' ／ 教科書 pp.'+pages[q.c]+'</p>'+
+ '<section class="panel"><div class="prompt">'+esc(q.prompt)+'</div>'+
+ (r?'<div aria-live="polite"><div class="feedback '+(r.ok?'goodtext':'badtext')+'">'+(r.ok?'正解':r.unknown?'わからない':'不正解')+'</div>'+
+ '<div class="answer"><strong>正解</strong>'+q.options.filter(o=>o.ok).map(o=>'<p>'+esc(o.text)+'</p>').join('')+'</div>'+
+ '<h3>説明</h3><p style="white-space:pre-line">'+esc(q.explain)+'</p></div>':
+ '<div class="muted" style="margin-bottom:12px">'+q.n+'つ選ぶと自動で採点します'+(q.n===2?'。選択済みの項目は再タップで解除できます。':'。')+'</div>'+
+ '<div class="options">'+q.options.map((o,i)=>'<button class="option '+(s.selected.has(i)?'on':'')+'" data-choice="'+i+'" aria-pressed="'+s.selected.has(i)+'"><span class="letter">'+'ABCD'[i]+'</span><span>'+esc(o.text)+'</span></button>').join('')+'</div>')+
+ '<div class="bottom"><button data-unknown>わからない</button>'+
+ (r?'<button class="primary" data-next>'+(s.index+1===s.queue.length?'結果を見る':'次の問題 →')+'</button>':'<span class="muted">'+s.selected.size+' / '+q.n+' 選択</span>')+'</div></section>';
+}
+function listRows(items){
+ return items.length?items.map(f=>'<details class="listitem"><summary>'+esc(f.term)+' <span class="muted">第'+(f.c+1)+'部</span></summary><p>'+esc(f.desc||f.seq.join(' → '))+'</p><span class="muted">教科書 pp.'+pages[f.c]+'</span></details>').join(''):'<div class="empty">該当する項目はありません。</div>';
+}
+function list(){
+ const status=view==='todo'?'todo':'done';
+ const items=ids(status).filter(f=>(f.term+' '+(f.desc||'')).includes(search));
+ return '<div class="row"><h2>'+(status==='todo'?'未完了':'完了')+'</h2><span class="muted">'+ids(status).length+'項目</span></div>'+
+ '<p class="muted">'+(status==='todo'?'間違えた問題・わからなかった問題をまとめて復習。':'正解した項目。再出題では対応関係なども確認します。')+'</p>'+
+ '<section class="panel"><input class="search" id="search" value="'+esc(search)+'" placeholder="用語を検索" aria-label="用語を検索">'+
+ '<div id="listitems">'+listRows(items)+'</div>'+
+ (status==='todo'?countUI()+'<div class="bottom"><span></span><button class="primary" id="start" data-review>未完了だけで出題 →</button></div>':'')+'</section>';
+}
+function finish(){
+ const correct=session.results.filter(r=>r?.ok).length;
+ return '<div class="muted">SESSION COMPLETE</div><h2>今回の結果</h2><section class="panel"><div class="score"><strong>'+correct+'</strong><small>/ '+session.queue.length+'問 正解</small></div>'+
+ '<p>正答率 '+Math.round(100*correct/session.queue.length)+'%</p>'+
+ '<div class="bottom"><button data-nav="todo">未完了を見る</button><button class="primary" data-nav="home">ホームへ →</button></div></section>';
+}
+function syncCount(){
+ const review=view==='todo',n=review?ids('todo').length:pool().length;
+ const el=document.getElementById('start'),note=document.getElementById('countnote');
+ const actual=valid()?Math.min(Number(amount),n):0;
+ if(el){
+  el.disabled=!valid()||!n;
+  el.textContent=review?'未完了 '+actual+'問を出題 →':actual+'問を始める →';
+ }
+ if(note)note.textContent=!valid()?'1〜1000の整数を入力してください。':
+ !n?'対象の問題がありません。':
+ Number(amount)>n?'対象問題数に合わせて'+n+'問で出題します。重複はありません。':
+ custom?'1〜1000問で設定できます。':'';
+}
+function render(){
+ const active=session&&(view==='quiz'||view==='finish');
+ document.getElementById('app').innerHTML='<div class="app"><aside><h1>世界史試験対策</h1>'+
+ (active?'<div class="score"><div class="muted">正答数</div><strong>'+session.results.filter(r=>r?.ok).length+'</strong><small>/ '+session.queue.length+'</small></div>'+
+ '<div class="rail">'+session.queue.map((q,i)=>'<button data-jump="'+i+'" '+(session.results[i]||i===session.index?'':'disabled')+' class="'+(i===session.index?'current ':'')+(session.results[i]?(session.results[i].ok?'good':'bad'):'')+'">'+(i+1)+'</button>').join('')+'</div>':'')+
+ '<nav><button data-nav="home" class="'+(view==='home'?'on':'')+'">ホーム<span>›</span></button>'+
+ '<button data-nav="todo" class="'+(view==='todo'?'on':'')+'">未完了<span>'+ids('todo').length+'</span></button>'+
+ '<button data-nav="done" class="'+(view==='done'?'on':'')+'">完了<span>'+ids('done').length+'</span></button></nav>'+
+ (session&&!active?'<button class="subtle" data-resume style="margin-top:18px">学習に戻る →</button>':'')+
+ '</aside><main>'+(view==='home'?home():view==='quiz'?quiz():view==='finish'?finish():list())+
+ sourceLink()+'<footer>出題・解説は提供資料に基づきます。進捗はこのブラウザに保存。'+
+ (!storageOK?' この画面では保存を利用できないため、進捗は今回の表示中のみ保持されます。':'')+'</footer></main></div>';
+ syncCount();
+}
+document.addEventListener('click',e=>{
+ const b=e.target.closest('button');if(!b||b.disabled)return;
+ const d=b.dataset;
+ if('nav'in d){view=d.nav;search=''}
+ else if('resume'in d)view='quiz';
+ else if('branch'in d){toggleChapter(+d.branch);return}
+ else if('all'in d)selected=new Set(names.map((_,i)=>i));
+ else if('clear'in d)selected.clear();
+ else if('group'in d){
+  const cs=groups[d.group],all=cs.every(c=>selected.has(c));
+  cs.forEach(c=>all?selected.delete(c):selected.add(c));
+ }
+ else if('section'in d){
+  const c=+d.section;selected.has(c)?selected.delete(c):selected.add(c);
+ }
+ else if('tag'in d){
+  const t=d.tag;if(!t)tags.clear();else tags.has(t)?tags.delete(t):tags.add(t);
+ }
+ else if('count'in d){amount=d.count;custom=false}
+ else if('custom'in d)custom=true;
+ else if('start'in d){start();return}
+ else if('review'in d){start('review');return}
+ else if('choice'in d){choose(+d.choice);return}
+ else if('unknown'in d){grade(true);return}
+ else if('next'in d){next();return}
+ else if('jump'in d){session.index=+d.jump;session.selected=new Set();view='quiz'}
+ render();
+});
+document.addEventListener('input',e=>{
+ if(e.target.id==='amount'){amount=e.target.value;syncCount()}
+ if(e.target.id==='search'){
+  search=e.target.value;
+  document.getElementById('listitems').innerHTML=listRows(ids(view).filter(f=>(f.term+' '+(f.desc||'')).includes(search)));
+ }
+});
+save();render();
+</script>
+</html>
